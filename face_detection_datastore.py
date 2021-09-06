@@ -1,7 +1,7 @@
 import cv2
 import os
 dataset = "dataset"
-name = "anupama"
+name = "anupama" #name of a person / directory to store photos elated to that person
 
 path = os.path.join(dataset, name)
 if not os.path.isdir(path):
